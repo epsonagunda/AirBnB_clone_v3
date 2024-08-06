@@ -176,4 +176,3 @@ def places_search():
         d = p.to_dict()
         d.pop('amenities', None)
         places.append(d)
-
